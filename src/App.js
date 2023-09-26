@@ -1,8 +1,18 @@
 import {SideNav} from "./SideNav";
+import {Main} from "./Main";
+import {ParticleBackground} from "./ParticleBackground";
+
+
 
 function App() {
+
   return (
-    <SideNav/>
+      <div>
+          <ParticleBackground/>
+          <SideNav/>
+          <Main />
+      </div>
+
   );
 }
 
