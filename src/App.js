@@ -1,6 +1,7 @@
 import {SideNav} from "./SideNav";
 import {Main} from "./Main";
 import {ParticleBackground} from "./ParticleBackground";
+import {Skills} from "./Skills";
 
 
 
@@ -11,6 +12,7 @@ function App() {
           <ParticleBackground/>
           <SideNav/>
           <Main />
+          <Skills/>
       </div>
 
   );

@@ -24,13 +24,13 @@ export const SideNav = () => {
                                 <AiOutlineHome size={25} />
                                 <span className='pl-4'>Home</span>
                             </a>
-                            <a href='#projects' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-200'>
-                                <AiOutlineProfile size={25} />
-                                <span className='pl-4'>Projects</span>
-                            </a>
                             <a href='#skills' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-200'>
                                 <AiOutlineAudit size={25} />
                                 <span className='pl-4'>Skills</span>
+                            </a>
+                            <a href='#projects' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-200'>
+                                <AiOutlineProfile size={25} />
+                                <span className='pl-4'>Projects</span>
                             </a>
                             <a href='#education' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-200'>
                                 <IoSchoolOutline size={25} />
@@ -53,11 +53,11 @@ export const SideNav = () => {
                     <a href='#main' className='rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-300'>
                         <AiOutlineHome size={25} />
                     </a>
-                    <a href='#projects' className='rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-300'>
-                        <AiOutlineProfile size={25} />
-                    </a>
                     <a href='#skills' className='rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-300'>
                         <AiOutlineAudit size={25} />
+                    </a>
+                    <a href='#projects' className='rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-300'>
+                        <AiOutlineProfile size={25} />
                     </a>
                     <a href='#education' className='rounded-full shadow-lg bg-purple-600 m-2 p-4 cursor-pointer hover:scale-110 hover:shadow-purple-500 ease-in duration-300'>
                         <IoSchoolOutline size={25} />
