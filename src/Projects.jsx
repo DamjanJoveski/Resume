@@ -1,10 +1,7 @@
 import chess from './projectData/chess/cheSS.png';
 import alart from './projectData/alart/alart.png';
 import image1 from './projectData/kdlabs/Screenshot 2023-08-24 at 21.05.05.png';
-import image2 from './projectData/kdlabs/Screenshot 2023-08-24 at 21.05.24.png';
-import image3 from './projectData/kdlabs/Screenshot 2023-08-24 at 21.05.16.png';
-import image4 from './projectData/kdlabs/Screenshot 2023-08-24 at 21.05.16.png';
-import {AiFillGithub} from "react-icons/ai";
+
 export const Projects = () => {
 
     const projects = [
@@ -30,7 +27,7 @@ export const Projects = () => {
     ]
 
     return (
-        <div id='projects' className='w-full h-screen max-w-[1500px] mx-auto mt-36 py-16'>
+        <div id='projects' className='w-full md:h-screen max-w-[1500px] mx-auto mt-36 pt-16'>
             <div className='text-center pt-10'>
                 <h2 className='text-2xl md:text-3xl text-white'>Some ongoing projects</h2>
             </div>

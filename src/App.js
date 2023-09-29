@@ -3,6 +3,7 @@ import {Main} from "./Main";
 import {ParticleBackground} from "./ParticleBackground";
 import {Skills} from "./Skills";
 import {Projects} from "./Projects";
+import {Education} from "./Education";
 
 
 
@@ -15,6 +16,7 @@ function App() {
           <Main />
           <Skills/>
           <Projects/>
+          <Education/>
       </div>
 
   );

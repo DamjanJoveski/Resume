@@ -46,7 +46,7 @@ export const Skills = () => {
     ];
 
     return (
-        <div id="skills" className="w-full h-screen mb-8 py-10 mx-auto max-w-[1000px]">
+        <div id="skills" className="w-full md:h-screen mb-8 py-10 mx-auto max-w-[1000px]">
             <div className="py-12 text-center">
                 <h2 className="text-2xl md:text-3xl text-white">
                     Here are some technologies that I have experimented with
@@ -57,7 +57,7 @@ export const Skills = () => {
                     {skills.map((skill, index) => (
                         <div
                             key={index}
-                            className="bg-purple-800 w-40 h-40 md:w-52 md:h-52 rounded-lg shadow-md p-4 m-4 bg-opacity-20 backdrop-blur-lg flex flex-col justify-center items-center"
+                            className="bg-purple-600 w-40 h-40 md:w-52 md:h-52 rounded-lg shadow-md p-4 m-4 bg-opacity-20 backdrop-blur-lg flex flex-col justify-center items-center"
                         >
                             <img
                                 src={skill.imageUrl}
