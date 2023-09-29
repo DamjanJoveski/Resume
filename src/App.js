@@ -2,6 +2,7 @@ import {SideNav} from "./SideNav";
 import {Main} from "./Main";
 import {ParticleBackground} from "./ParticleBackground";
 import {Skills} from "./Skills";
+import {Projects} from "./Projects";
 
 
 
@@ -13,6 +14,7 @@ function App() {
           <SideNav/>
           <Main />
           <Skills/>
+          <Projects/>
       </div>
 
   );

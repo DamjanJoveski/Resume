@@ -46,7 +46,7 @@ export const Skills = () => {
     ];
 
     return (
-        <div className="w-full h-screen py-12 mx-auto max-w-[1000px]">
+        <div id="skills" className="w-full h-screen mb-8 py-10 mx-auto max-w-[1000px]">
             <div className="py-12 text-center">
                 <h2 className="text-2xl md:text-3xl text-white">
                     Here are some technologies that I have experimented with
@@ -62,7 +62,7 @@ export const Skills = () => {
                             <img
                                 src={skill.imageUrl}
                                 alt={`${skill.title} logo`}
-                                className="h-20 mx-auto mb-4 object-contain"
+                                className="h-16 mx-auto mb-4 object-contain"
                             />
                             <h2 className="text-sm md:text-lg font-semibold text-white m-auto text-center overflow-hidden">
                                 {skill.title}
