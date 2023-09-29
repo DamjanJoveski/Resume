@@ -31,7 +31,7 @@ export const Education = () => {
         <div className='flex flex-col mt-10 '>
             {education.map(
                 (education, index) => (
-                    <div className='w-full mx-auto my-5 rounded-lg bg-purple-600 bg-opacity-20 backdrop-blur-lg  py-4'>
+                    <div className='w-full mx-auto my-5 rounded-lg bg-purple-600 bg-opacity-20 backdrop-blur-lg p-2 py-4'>
                         <h3 className='text-white font-semibold text-2xl py-1'>
                             {education.title}
                         </h3>
