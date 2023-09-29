@@ -33,7 +33,7 @@ export const Projects = () => {
             </div>
                 <div className="flex flex-wrap justify-around content-evenly py-24">
                     {projects.map((project, index) => (
-                        <a href={project.link} target="_blank">
+                        <a href={project.link} target="_blank" rel="noreferrer">
                         <div
                             key={index}
                             className="bg-purple-600 w-full max-w-[90%] md:w-72 md:h-96 rounded-lg md:hover:scale-125 ease-in-out duration-300 shadow-md p-4 m-4 bg-opacity-20 backdrop-blur-lg flex flex-col justify-center items-center"

@@ -14,6 +14,7 @@ export const SideNav = () => {
         setNav(!nav);
     }
 
+
     return (
         <div>
             {nav ?  <AiOutlineClose onClick={handleNav} size={25} className='absolute top-4 right-4 z-[99] mr-2 md:hidden text-white'   />
