@@ -19,7 +19,7 @@ export const Education = () => {
         },
         {
             title:'Java spring course',
-            description:'Another Udemy course that is all about the Spring framework',
+            description:'COMING SOON',
         },
     ]
 
