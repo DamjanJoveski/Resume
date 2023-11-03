@@ -5,7 +5,6 @@ import {Skills} from "./Skills";
 import {Projects} from "./Projects";
 import {Education} from "./Education";
 import {Contact} from "./Contact";
-import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -20,7 +19,6 @@ function App() {
           <Projects/>
           <Education/>
           <Contact/>
-
       </div>
 
   );
