@@ -20,7 +20,7 @@ function App() {
           <Projects/>
           <Education/>
           <Contact/>
-          <Analytics />
+
       </div>
 
   );
