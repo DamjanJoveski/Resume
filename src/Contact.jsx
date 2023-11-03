@@ -1,4 +1,5 @@
 export const Contact = () => {
+    
     return (
         <div id='contact' className='max-w-[1200px] m-auto md:pl-20 p-4 py-16 md:h-screen mt-80 text-white'>
             <h2 className='py-4 text-4xl font-bold text-center text-white'>
@@ -27,7 +28,7 @@ export const Contact = () => {
                     <label className='uppercase text-sm py-2'>Message</label>
                     <textarea className='border-2 rounded-lg p-3 border-gray-400 bg-gray-600 bg-opacity-20 backdrop-blur-lg focus:outline-none' rows="10" name="message"> </textarea>
                 </div>
-                <button className='bg-purple-600 bg-opacity-20 backdrop-blur-lg text-white mt-5 w-full p-4 rounded-lg shadow-lg hover:shadow-purple-500 hover:scale-105 ease-in-out duration-300 focus:outline-none'>
+                <button onClick={onClickHandler} className='bg-purple-600 bg-opacity-20 backdrop-blur-lg text-white mt-5 w-full p-4 rounded-lg shadow-lg hover:shadow-purple-500 hover:scale-105 ease-in-out duration-300 focus:outline-none'>
                     Send Message
                 </button>
             </form>
