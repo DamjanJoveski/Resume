@@ -1,5 +1,5 @@
 import chess from './projectData/chess/cheSS.png';
-import alart from './projectData/alart/alart.png';
+import issTracker from './projectData/iss-tracker/iss-tracker.png';
 import image1 from './projectData/kdlabs/Screenshot 2023-08-24 at 21.05.05.png';
 
 export const Projects = () => {
@@ -12,10 +12,10 @@ export const Projects = () => {
             link:'https://github.com/krsteetc/reactjs_chess_tut.git'
         },
         {
-            title:'Al Art DOOEL',
-            data:`${alart}`,
-            description:'A website developed in React.js and tailwind css for a friend that sells custom embroidered clothing',
-            link:'https://github.com/DamjanJoveski/al-art-react.git'
+            title:'ISS Tracker',
+            data:`${issTracker}`,
+            description:'A web app made for tracking the ISS in real-time, it also displays the number of astronauts and their names',
+            link:'https://github.com/DamjanJoveski/ISS-Tracker'
         },
         {
             title:'KD Labs',
