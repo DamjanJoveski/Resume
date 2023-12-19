@@ -27,7 +27,7 @@ export const Projects = () => {
         {
             title: 'Science Blog',
             data: `${scienceBblog}`,
-            description: 'Web site made with React, Nodejs, Tailwind and PostgreSQL that is all about science artciles',
+            description: 'A website made with React, Nodejs, Tailwind and PostgreSQL that is all about science artciles',
             link: 'https://github.com/DamjanJoveski/science-blog'
         }
 
