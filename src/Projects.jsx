@@ -1,6 +1,7 @@
 import chess from './projectData/chess/cheSS.png';
 import issTracker from './projectData/iss-tracker/iss-tracker.png';
 import image1 from './projectData/kdlabs/Screenshot 2023-08-24 at 21.05.05.png';
+import scienceBblog from './projectData/science-blog/science-blog.png'
 
 export const Projects = () => {
 
@@ -23,6 +24,12 @@ export const Projects = () => {
             description:'A landing page developed in React.js and tailwind css for my cousin that works as a graphic designer',
             link:'https://github.com/DamjanJoveski/kdlabs.git'
         },
+        {
+            title: 'Science Blog',
+            data: `${scienceBblog}`,
+            description: 'Web site made with React, Nodejs, Tailwind and PostgreSQL that is all about science artciles',
+            link: 'https://github.com/DamjanJoveski/science-blog'
+        }
 
     ]
 
