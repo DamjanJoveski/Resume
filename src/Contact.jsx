@@ -1,7 +1,7 @@
 export const Contact = () => {
     
     return (
-        <div id='contact' className='max-w-[1200px] m-auto md:pl-20 p-4 py-16 md:h-screen mt-80 text-white'>
+        <div id='contact' className='max-w-[1200px] m-auto md:pl-20 p-4 py-16 md:h-screen mt-96 md:mt-80 text-white'>
             <h2 className='py-4 text-4xl font-bold text-center text-white'>
                 Contact
             </h2>
