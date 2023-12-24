@@ -5,10 +5,6 @@ import {Skills} from "./Skills";
 import {Projects} from "./Projects";
 import {Education} from "./Education";
 import {Contact} from "./Contact";
-import { SpeedInsights } from '@vercel/speed-insights/react';
-
-
-
 
 function App() {
 
@@ -21,7 +17,6 @@ function App() {
           <Projects/>
           <Education/>
           <Contact/>
-          <SpeedInsights />
       </div>
 
   );
