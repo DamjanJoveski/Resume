@@ -48,7 +48,7 @@ export const Projects = () => {
                             <img
                                 src={project.data}
                                 alt={`${project.title} `}
-                                className="h-48 mx-auto mb-4 object-contain md:hover:scale-[200%] ease-in-out duration-500"
+                                className="h-48 mx-auto mb-4 object-contain md:hover:scale-[140%] ease-in-out duration-500"
                             />
                             <h2 className="text-sm md:text-lg font-semibold text-white m-auto text-center overflow-hidden">
                                 {project.title}
