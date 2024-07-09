@@ -36,7 +36,7 @@ export const Projects = () => {
     return (
         <div id='projects' className='w-full md:h-screen max-w-[1500px] mx-auto mt-36 pt-16'>
             <div className='text-center pt-10'>
-                <h2 className='text-2xl md:text-3xl text-white'>Some ongoing projects</h2>
+                <h2 className='text-2xl md:text-3xl text-white'>Some pet projects that I built before my internships</h2>
             </div>
                 <div className="flex flex-wrap justify-around content-evenly py-24">
                     {projects.map((project, index) => (

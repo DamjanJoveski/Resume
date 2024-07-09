@@ -2,12 +2,20 @@ export const Education = () => {
 
     const education = [
         {
-            title:'High School',
-            description:'SOU "Josip Broz Tito Bitola"',
-        },
-        {
             title:'Faculty',
             description:'Faculty of Information And Communication Technologies Bitola',
+        },
+        {
+            title:'Software developer at avilo (previously Vantevo AS)',
+            description:'I play a role as a software developer that build web/mobile apps with React, Ionic and is expanding with PHP',
+        },
+        {
+            title:'Internship at Netcetera',
+            description:'Software engineering internship, worked with React, Spring boot, OpenAPI, MapStruct',
+        },
+        {
+            title:'Internship at avilo',
+            description:'Software development internship, worked with React and Flask',
         },
         {
             title:'React Course',
@@ -19,14 +27,14 @@ export const Education = () => {
         },
         {
             title:'Java spring course',
-            description:'COMING SOON',
+            description:'Udemy course on Spring Boot, covering fundamental concepts and advanced topics in Java web development.',
         },
     ]
 
     return (
         <div id='education' className='w-full max-w-[90%] md:max-w-[1000px] h-screen mx-auto mt-40 py-16 text-center'>
             <h2 className='text-white md:text-3xl text-2xl'>
-                Relevant formal and informal education
+                Relevant formal and informal education and experience
             </h2>
         <div className='flex flex-col mt-10 '>
             {education.map(

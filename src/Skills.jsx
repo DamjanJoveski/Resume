@@ -9,7 +9,7 @@ import nodejs from './images/nodejs-logo.png'
 
 
 export const Skills = () => {
-    const skills = [
+    const skills = [ //TODO - add logos for newly added skills
         {
             title: 'HTML',
             imageUrl: `${html}`,
@@ -27,8 +27,24 @@ export const Skills = () => {
             imageUrl: `${react}`,
         },
         {
+            title: 'Redux',
+            imageUrl: `${react}`,
+        },
+        {
             title: 'Java',
             imageUrl: `${java}`,
+        },
+        {
+            title: 'Spring Boot',
+            imageUrl: `${java}`,
+        },
+        {
+            title: 'MapStruct',
+            imageUrl: `${java}`,
+        },
+        {
+            title: 'OpenAPI',
+            imageUrl: `${dbm}`,
         },
         {
             title: 'Database Management',
@@ -49,7 +65,7 @@ export const Skills = () => {
         <div id="skills" className="w-full md:h-screen mb-8 py-10 mx-auto max-w-[1000px]">
             <div className="py-12 text-center">
                 <h2 className="text-2xl md:text-3xl text-white">
-                    Here are some technologies that I have experimented with
+                    Here are some technologies that I have worked with
                 </h2>
             </div>
             <div className="w-full">
