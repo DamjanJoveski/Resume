@@ -5,10 +5,10 @@ export const Education = () => {
             title:'Faculty',
             description:'Faculty of Information And Communication Technologies Bitola',
         },
-        {
-            title:'Software developer at avilo (previously Vantevo AS)',
-            description:'I play a role as a software developer that build web/mobile apps with React, Ionic and is expanding with PHP',
-        },
+        // {
+        //     title:'Software developer at avilo (previously Vantevo AS)',
+        //     description:'I play a role as a software developer that build web/mobile apps with React, Ionic and is expanding with PHP',
+        // },
         {
             title:'Internship at Netcetera',
             description:'Software engineering internship, worked with React, Spring boot, OpenAPI, MapStruct',
